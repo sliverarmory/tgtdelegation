@@ -23,15 +23,21 @@
   ],
   "arguments": [
     {
+      "name": "jobNonce",
+      "desc": "Job Nonce",
+      "type": "int",
+      "optional": false
+    },
+    {
       "name": "domainnameArg",
       "desc": "FQDN/currentdomain",
-      "type": "string",
+      "type": "wstring",
       "optional": false
     },
     {
       "name": "usersuppliedSpn",
       "desc": "SPN/default",
-      "type": "string",
+      "type": "wstring",
       "optional": false
     }
   ]
