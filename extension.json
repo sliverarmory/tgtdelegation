@@ -6,7 +6,7 @@
   "original_author": "connormcgarr",
   "repo_url": "https://github.com/sliverarmory/tgtdelegation",
   "help": "tgtdelegation: Obtain a usable Kerberos TGT",
-  "long_help": "tgtdelegation: Obtain a usable Kerberos TGT\nUsage: tgtdelegation [FQDN/currentdomain SPN/default]\n\nExample usage 1: tgtdelegation currentdomain default\nExample usage 2: tgtdelegation DOMAIN.LOCAL CIFS/FILESERVER.MARVEL.LOCAL\n",
+  "long_help": "tgtdelegation: Obtain a usable Kerberos TGT\nUsage: tgtdelegation [FQDN/currentdomain SPN/default]\n\nExample usage 1: tgtdelegation 123123 currentdomain default\nExample usage 2: tgtdelegation 9876543 DOMAIN.LOCAL CIFS/FILESERVER.MARVEL.LOCAL\n",
   "depends_on": "coff-loader",
   "entrypoint": "go",
   "files": [
